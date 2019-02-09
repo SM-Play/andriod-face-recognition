@@ -43,7 +43,9 @@ configurations {
 
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
+    //noinspection GradleCompatible
     compile "com.android.support:appcompat-v7:${rootProject.ext.androidSupportSdkVersion}"
+    //noinspection GradleCompatible
     javadocDeps "com.android.support:appcompat-v7:${rootProject.ext.androidSupportSdkVersion}"
     compile "com.android.support:support-annotations:${rootProject.ext.androidSupportSdkVersion}"
     javadocDeps "com.android.support:support-annotations:${rootProject.ext.androidSupportSdkVersion}"
